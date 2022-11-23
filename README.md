@@ -1,12 +1,3 @@
 # super-palm-tree
 
-<h1 align="center"> GitPoint </h1> <br>
-<p align="center">
-  <a href="https://gitpoint.co/">
-    <img alt="GitPoint" title="GitPoint" src="../assets/img/logo.svg">
-  </a>
-</p>
-
-<p align="center">
-  GitHub in your pocket. Built with React Native.
-</p>
+# ![WebApp](https://akkeluck.github.io/womazing-shop/assets/img/logo.svg)
