@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WOMAZING / Магазин</title>
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<!-- <a href="https://www.flaticon.com/ru/free-icons/" title="вешалка иконки">Вешалка иконки от Freepik - Flaticon</a> -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="header-sticky">
+			<div class="container">
+				<div class="nav">
+					<a href="index.html" class="logo"></a>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item ">
+								<a href="index.html">
+									Главная
+								</a>
+							</li>
+							<li class="menu__item menu__item_active">
+								<div class="menu__dropdown dropdown">
+									<a href="shop.html" class="dropdown__btn" >
+									Магазин
+								 	</a>
+									<ul class="dropdown__content">
+										<li>
+											<a href="shop.html">Пальто</a>
+										</li>
+										<li>
+											<a href="shop.html">Свитшоты</a>
+										</li>
+										<li>
+											<a href="shop.html">Кардиганы</a>
+										</li>
+										<li>
+											<a href="shop.html">Толстовки</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<a href="about.html">
+									О бренде
+								</a>
+							</li>
+							<li class="menu__item ">
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</ul>
+						<button type="button" class="menu__close"></button>
+					</nav>
+					<button type="button" class="call-img"></button>
+					<a href="tel:+74958235412" class="call-header link">
+						+7 (495) 823-54-12
+					</a>
+					<a href="cart.html" class="bag"></a>
+					<div class="hamburger">
+							<img src="assets/img/burger.svg" alt="Гамбургер">
+					</div>
+				</div>
+			</div>
+		</div>
+			<!-- Popup Start --> 
+        <div class="popup-fade" id="popup-fade">
+            <div class="popup">
+                <div class="container">
+                	<a href="#" class="close-btn"></a>
+                	<h3 class="popup__title">Заказать обратный звонок</h3>
+                	<div class="popup-wrap">
+                		<form action="#" class="form-book js-form form-modal" id="form-modal">
+                            <input type="text" class="form-book__input" placeholder="Имя" name="firstName" required>
+                            <input type="email" name="email" required class="form-book__input" placeholder="E-mail">
+                            <input type="tel" class="form-book__input" placeholder="Телефон" name="phoneNumber" required>
+                            <button type="submit" class="btn select-btn" data-submit>Заказать звонок</button>
+                        </form>
+                	</div>    
+                </div>
+            </div>    
+        </div>
+        <!-- Popup End -->
+        <!-- Popup-Success Start --> 
+        <div class="popup-success__fade" id="popup-success__fade">
+            <div class="popup-info">
+            	<div class="container">
+            		<p class="popup-success__text">
+            			Отлично! Мы скоро вам перезвоним.
+            		</p>
+            		<a href="#" class="popup-success__btn btn-ghost__shop">Закрыть</a>
+            	</div>	
+            </div>
+        </div>
+        <!-- Popup-Success End -->	
+	</header>
+	<section class="shop" id="shop">
+		<div class="container">	
+			<h1 class="section__title">Магазин</h1>
+			<ul class="breadcrumb">
+				<li><a href="#">Главная</a></li>
+				<li>Магазин</li>
+			</ul>
+			<div class="tabs-wrapper">
+				<button type="button" class="tab-item tab-item_active">Все</button>
+				<button type="button" class="tab-item">Пальто</button>
+				<button type="button" class="tab-item">Свитшоты</button>
+				<button type="button" class="tab-item">Кардиганы</button>
+				<button type="button" class="tab-item">Толстовки</button>
+			</div>
+
+			<!-- ** Всё ** -->
+			<div class="tabs-content tabs-content_active">
+				<p class="amount">
+					Показано: <span>9</span> из <span>12</span> товаров
+				</p>
+				<div class="collection">
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-3.png" class="card__image" alt="Третий товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Свитшот Sweet Shot</p>
+						<span class="collection__price">129$</span>
+					</div>
+						<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-3.png" class="card__image" alt="Третий товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Свитшот Sweet Shot</p>
+						<span class="collection__price">129$</span>
+					</div>
+						<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-3.png" class="card__image" alt="Третий товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Свитшот Sweet Shot</p>
+						<span class="collection__price">129$</span>
+					</div>
+				</div>
+				<p class="amount">
+					Показано: <span>9</span> из <span>12</span> товаров
+				</p>
+				<div class="pages">
+				<a href="#" class="page__btn page__btn_active">1</a>
+				<a href="#" class="page__btn">2</a>
+				<a href="#" class="next-page"></a>
+			</div>	
+			</div> 
+			<!-- ** Пальто ** -->  
+			<div class="tabs-content">
+				<p class="amount">
+					Показано: <span>2</span> из <span>12</span> товаров
+				</p>
+				<div class="collection">
+					<div class="collection__item">
+					<div class="card">
+  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+					</div>
+					<p class="collection__desc">Футболка USA</p>
+					<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div> 
+				</div>
+				<p class="amount">
+					Показано: <span>2</span> из <span>12</span> товаров
+				</p>
+			</div> 
+			<!-- ** Свитшоты ** --> 
+			<div class="tabs-content">
+				<p class="amount">
+					Показано: <span>4</span> из <span>12</span> товаров
+				</p>
+				<div class="collection">
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div> 
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div> 
+				</div>
+				<p class="amount">
+					Показано: <span>4</span> из <span>12</span> товаров
+				</p>	
+			</div> 
+			<!-- ** Кардиганы ** --> 
+			<div class="tabs-content">
+				<p class="amount">
+					Показано: <span>3</span> из <span>12</span> товаров
+				</p>
+				<div class="collection">
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div> 
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+				</div>
+				<p class="amount">
+					Показано: <span>3</span> из <span>12</span> товаров
+				</p>	
+			</div> 
+			<!-- ** Толстовки ** --> 
+			<div class="tabs-content">
+				<p class="amount">
+					Показано: <span>3</span> из <span>12</span> товаров
+				</p>
+				<div class="collection">
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div>
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-2.png" class="card__image" alt="Второй товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Купальник Glow</p>
+						<span class="collection__price">129$</span>
+					</div> 
+					<div class="collection__item">
+						<div class="card">
+	  						<img src="assets/img/good-1.png" class="card__image" alt="Первый товар">
+	  						<div class="card__overlay">
+	  							<a href="one-item.html"></a>
+	  						</div>
+						</div>
+						<p class="collection__desc">Футболка USA</p>
+						<span class="collection__price"><del>229$</del> 129$</span>
+					</div> 
+				</div>
+				<p class="amount">
+					Показано: <span>3</span> из <span>12</span> товаров
+				</p>	
+			</div> 
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container container-flex">
+			<div class="rights">
+				<a href="index.html" class="logo logo__footer"></a>
+
+					<ul>
+					<li>
+						<span class="rights__item">© Все права защищены</span>
+					</li>
+					<li>
+						<a class="rights__item link" href="#">Политика конфиденциальности</a>
+					</li>
+					<li>
+						<a  class="rights__item link"href="#">Публичная оферта</a>
+					</li>
+				</ul>
+				</div>
+				<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__item ">
+						<a href="index.html">
+						Главная
+						</a>
+					</li>
+					<li class="menu__item menu__item_active">
+						<div class="assortment">
+							<div class="menu__dropdown dropdown">
+								<a href="shop.html" class="dropdown__btn shop" >
+									Магазин
+								 	</a>
+								<div class="dropdown__content">
+								    <a href="shop.html">Пальто</a>
+									<a href="shop.html">Свитшоты</a>
+									<a href="shop.html">Кардиганы</a>
+									<a href="shop.html">Толстовки</a>
+							  </div>
+							</div>
+						</div>
+					</li>
+					<li class="menu__item ">
+						<a href="about.html">
+							О бренде
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="contacts.html">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="contacts">
+					<a href="tel:+380448235412" class="call-footer link">
+						+38 (044) 823-54-12
+					</a>
+					<a href="mailto:hello@womazing.com" class="email link">
+						hello@womazing.com
+					</a>
+				<ul class="networks">
+					<li>
+					<!--noindex-->
+						<a href="https://www.instagram.com" rel="nofollow noopener noreferrer" target="_blank" class="instagram">
+						</a>
+					<!--/noindex-->
+					</li>
+					<li>
+						<!--noindex-->
+						<a href="https://www.facebook.com" rel="nofollow noopener noreferrer" target="_blank" class="facebook">
+				    	</a>
+					<!--/noindex-->
+					</li>
+					<li>
+						<!--noindex-->
+						<a href="https://www.twitter.com" rel="nofollow noopener noreferrer" target="_blank" class="twitter">
+				    	</a>
+					<!--/noindex-->
+					</li>
+				</ul>
+					<img src="assets/img/visa.svg" class="visa" >
+			</div>
+			</div>
+	</footer>
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/main.js"></script>	
+</body>
+</html>
