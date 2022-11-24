@@ -1,6 +1,6 @@
 <h1 align="center">Womazing</h1>
 
-<p align="center"><img src="./assets/img/readme/mockup-1.jpg" width="70%"></p>
+<p align="center"><img src="./assets/img/readme/mockup-1.jpg" width="80%"></p>
 
 <h2 align="center"><a  href="https://akkeluck.github.io/womazing-shop/index.html">Demo</a></h2>
 
@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-## Mobile support
-The website is compatible with devices of all resolutions.
+## Responsive Web Design
+The website is compatible with screen sizes of all resolutions.
 
 <p align="center"><img src="./assets/img/readme/mockup-2.jpg" width="70%"></p>
