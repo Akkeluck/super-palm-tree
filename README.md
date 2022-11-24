@@ -12,3 +12,8 @@
 </td>
 </tr>
 </table>
+
+## Mobile support
+The website is compatible with devices of all resolutions.
+
+<p align="center"><img src="./assets/img/readme/mockup-2.jpg" width="70%"></p>
