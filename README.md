@@ -1,4 +1,4 @@
-<h1 align="center">Womazing</h1>
+<h1 align="center">AI.MAN</h1>
 
 <p align="center"><img src="./assets/img/readme/mockup-1.jpg" width="80%"></p>
 
@@ -21,7 +21,7 @@ The website is compatible with screen sizes of all resolutions.
 ## Built with 
 
 - [jQuery Validation Plugin](https://jqueryvalidation.org/)
-- [Yandex.Maps JavaScript API](https://yandex.ru/dev/maps/jsapi/)
+- [Parallax.js](https://matthew.wagerfield.com/parallax/))
 - [Slick Slider](https://kenwheeler.github.io/slick/)
 
 ## Future scope
