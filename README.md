@@ -17,3 +17,13 @@
 The website is compatible with screen sizes of all resolutions.
 
 <p align="center"><img src="./assets/img/readme/mockup-2.jpg" width="70%"></p>
+
+## Built with 
+
+- [jQuery Validation Plugin](https://jqueryvalidation.org/)
+- [Yandex.Maps JavaScript API](https://yandex.ru/dev/maps/jsapi/)
+- [Slick Slider](https://kenwheeler.github.io/slick/)
+
+## Future scope
+
+- Implement an option to add items to the cart / remove them.
