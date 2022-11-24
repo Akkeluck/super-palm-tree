@@ -1,3 +1,8 @@
-# super-palm-tree
+<h1 align="center">Womazing</h1>
+<h2 align="center">
 
-# ![WebApp](https://akkeluck.github.io/womazing-shop/assets/img/DSC_0249.JPG)
+</h2>
+
+<img src="./assets/img/readme/mockup-1.jpg" width="100%">
+
+<h2 align="center"><a  href="https://solitairevue.firebaseapp.com">Live Demo</a></h2>
